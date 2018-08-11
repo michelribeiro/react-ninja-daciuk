@@ -1,0 +1,102 @@
+[
+    {
+        "LOSE_ID_LOG_SERVICO_API": 1,
+        "LOSE_DS_URL": "https://modelosite/api/HierarquiaNivel/BuscarFiliais/",
+        "LOSE_TP_RESQUEST_METHOD": "GET",
+        "LOSE_DS_NOME_SISTEMA": "EQUILIBRIO",
+        "LOSE_CD_STATUS_CODE": "200",
+        "LOSE_NU_TEMPO_DECORRIDO": 3660,
+        "LOSE_DT_REQUEST_CHAMADA": "2018-04-10T10:42:35",
+        "LOSE_DT_RESPONSE_CHAMADA": "2018-04-10T10:42:35"
+    },
+    {
+        "LOSE_ID_LOG_SERVICO_API": 2,
+        "LOSE_DS_URL": "https://modelosite/api/Simulador/BuscarValoresReferenciaSimulacao",
+        "LOSE_TP_RESQUEST_METHOD": "GET",
+        "LOSE_DS_NOME_SISTEMA": "EQUILIBRIO",
+        "LOSE_CD_STATUS_CODE": "404",
+        "LOSE_NU_TEMPO_DECORRIDO": 4249,
+        "LOSE_DT_REQUEST_CHAMADA": "2018-04-10T10:42:35",
+        "LOSE_DT_RESPONSE_CHAMADA": "2018-04-10T10:42:35"
+    },
+    {
+        "LOSE_ID_LOG_SERVICO_API": 3,
+        "LOSE_DS_URL": "https://modelosite/api/HierarquiaNivel/BuscarPontosVenda/",
+        "LOSE_TP_RESQUEST_METHOD": "GET",
+        "LOSE_DS_NOME_SISTEMA": "EQUILIBRIO",
+        "LOSE_CD_STATUS_CODE": "200",
+        "LOSE_NU_TEMPO_DECORRIDO": 5827,
+        "LOSE_DT_REQUEST_CHAMADA": "2018-04-10T10:42:37",
+        "LOSE_DT_RESPONSE_CHAMADA": "2018-04-10T10:42:37"
+    },
+    {
+        "LOSE_ID_LOG_SERVICO_API": 4,
+        "LOSE_DS_URL": "https://modelosite/api/Simulador/BuscarTotalMensagensSubscricaoPorHierarquiaCorretor/",
+        "LOSE_TP_RESQUEST_METHOD": "POST",
+        "LOSE_DS_NOME_SISTEMA": "EQUILIBRIO",
+        "LOSE_CD_STATUS_CODE": "404",
+        "LOSE_NU_TEMPO_DECORRIDO": 6646,
+        "LOSE_DT_REQUEST_CHAMADA": "2018-04-10T10:42:38",
+        "LOSE_DT_RESPONSE_CHAMADA": "2018-04-10T10:42:38"
+    },
+    {
+        "LOSE_ID_LOG_SERVICO_API": 5,
+        "LOSE_DS_URL": "https://modelosite/api/HierarquiaNivel/BuscarFiliais/",
+        "LOSE_TP_RESQUEST_METHOD": "GET",
+        "LOSE_DS_NOME_SISTEMA": "EQUILIBRIO",
+        "LOSE_CD_STATUS_CODE": "200",
+        "LOSE_NU_TEMPO_DECORRIDO": 5,
+        "LOSE_DT_REQUEST_CHAMADA": "2018-04-10T10:45:27",
+        "LOSE_DT_RESPONSE_CHAMADA": "2018-04-10T10:45:27"
+    },
+    {
+        "LOSE_ID_LOG_SERVICO_API": 6,
+        "LOSE_DS_URL": "https://modelosite/api/Simulador/BuscarValoresReferenciaSimulacao",
+        "LOSE_TP_RESQUEST_METHOD": "GET",
+        "LOSE_DS_NOME_SISTEMA": "EQUILIBRIO",
+        "LOSE_CD_STATUS_CODE": "200",
+        "LOSE_NU_TEMPO_DECORRIDO": 38,
+        "LOSE_DT_REQUEST_CHAMADA": "2018-04-10T10:45:27",
+        "LOSE_DT_RESPONSE_CHAMADA": "2018-04-10T10:45:27"
+    },
+    {
+        "LOSE_ID_LOG_SERVICO_API": 7,
+        "LOSE_DS_URL": "https://modelosite/api/HierarquiaNivel/BuscarPontosVenda/",
+        "LOSE_TP_RESQUEST_METHOD": "GET",
+        "LOSE_DS_NOME_SISTEMA": "EQUILIBRIO",
+        "LOSE_CD_STATUS_CODE": "404",
+        "LOSE_NU_TEMPO_DECORRIDO": 504,
+        "LOSE_DT_REQUEST_CHAMADA": "2018-04-10T10:45:28",
+        "LOSE_DT_RESPONSE_CHAMADA": "2018-04-10T10:45:28"
+    },
+    {
+        "LOSE_ID_LOG_SERVICO_API": 8,
+        "LOSE_DS_URL": "https://modelosite/api/Simulador/BuscarTotalMensagensSubscricaoPorHierarquiaCorretor/",
+        "LOSE_TP_RESQUEST_METHOD": "POST",
+        "LOSE_DS_NOME_SISTEMA": "EQUILIBRIO",
+        "LOSE_CD_STATUS_CODE": "200",
+        "LOSE_NU_TEMPO_DECORRIDO": 568,
+        "LOSE_DT_REQUEST_CHAMADA": "2018-04-10T10:45:28",
+        "LOSE_DT_RESPONSE_CHAMADA": "2018-04-10T10:45:28"
+    },
+    {
+        "LOSE_ID_LOG_SERVICO_API": 9,
+        "LOSE_DS_URL": "http://localhost/api/HierarquiaNivel/BuscarPontosVenda/",
+        "LOSE_TP_RESQUEST_METHOD": "GET",
+        "LOSE_DS_NOME_SISTEMA": "EQUILIBRIO",
+        "LOSE_CD_STATUS_CODE": "200",
+        "LOSE_NU_TEMPO_DECORRIDO": 46655,
+        "LOSE_DT_REQUEST_CHAMADA": "2018-04-10T11:04:18",
+        "LOSE_DT_RESPONSE_CHAMADA": "2018-04-10T11:04:18"
+    },
+    {
+        "LOSE_ID_LOG_SERVICO_API": 10,
+        "LOSE_DS_URL": "http://localhost/api/Simulador/BuscarValoresReferenciaSimulacao",
+        "LOSE_TP_RESQUEST_METHOD": "GET",
+        "LOSE_DS_NOME_SISTEMA": "EQUILIBRIO",
+        "LOSE_CD_STATUS_CODE": "500",
+        "LOSE_NU_TEMPO_DECORRIDO": 46780,
+        "LOSE_DT_REQUEST_CHAMADA": "2018-04-10T11:04:18",
+        "LOSE_DT_RESPONSE_CHAMADA": "2018-04-10T11:04:18"
+    }
+]
