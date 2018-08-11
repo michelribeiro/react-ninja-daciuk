@@ -5,10 +5,6 @@ import data from '../db.json';
 
 class Main extends Component {
 
-    constructor() {
-        super()
-    }
-
     filterInfoData(data) {
         // recebo o objeto e quero tratar da seguinte forma
         // Popular em cada lopping seus respectivos valores corretamente e fazer tratamento
@@ -25,7 +21,7 @@ class Main extends Component {
         // entendi que tenho que usar o filter pra pegar os elementos que quero tratar, só que continuo na mesma dúvida de como enviar
         // pra dentro do map eles já tratados.
         return data.filter((i) => {
-            console.log('---->', i.LOSE_DS_URL.replace("https://tst.icatuseguros.com.br/api/", "").replace("http://localhost/api/", ""))
+            console.log('---->', i.LOSE_DS_URL.replace("https://modelosite/api/", "").replace("http://localhost/api/", ""))
             
             return data
             // retorno o objeto para o map sem fazer nada, pois dependo de sanar as dúvidas
@@ -64,7 +60,7 @@ class Main extends Component {
                                         <td>{data.LOSE_DS_URL}</td>
                                         <td>{data.LOSE_TP_RESQUEST_METHOD}</td>
                                         <td>{data.LOSE_DS_NOME_SISTEMA}</td>
-                                        <td className={data.LOSE_CD_STATUS_CODE != '200' ? 'error': 'normal'}>
+                                        <td className={data.LOSE_CD_STATUS_CODE !== '200' ? 'error': 'normal'}>
                                             <span>{data.LOSE_CD_STATUS_CODE}</span>
                                         </td>
                                         <td>{data.LOSE_NU_TEMPO_DECORRIDO}</td>

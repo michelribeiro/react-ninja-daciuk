@@ -5,9 +5,6 @@ import Main from '../components/Main'
 
 class Home extends Component {
 
-    constructor(props) {
-        super(props)
-    }
     
     componentDidMount() {}
 
