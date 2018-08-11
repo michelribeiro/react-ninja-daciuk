@@ -26,14 +26,16 @@ class Main extends Component {
         // pra dentro do map eles já tratados.
         return data.filter((i) => {
             console.log('---->', i.LOSE_DS_URL.replace("https://tst.icatuseguros.com.br/api/", "").replace("http://localhost/api/", ""))
+            
+            return data
             // retorno o objeto para o map sem fazer nada, pois dependo de sanar as dúvidas
             // meu contato caso queira falar pelo zap ou hangout é 21 97904-4440, michelribeiro2004@gmail.com
-            return data
+
             // agora a pergunta de ouro e vale um cerveja quando você vier ao RJ
             // manipular o state com o setState tem sido meu grande calcanhar de Aquiles, em hipotese alguma eu posso injetar um novo estado a um elemento quando
-            // esse esta em looping, certo ? 
-            // A forma, sempre será passar o objeto para uma função e manipular nela e dar o retorno para o map com ela já manipulada ?
-            // Se for isso, acho que você matando essa minha dúvida, ficará claro pra mim a forma de manipular os dados do array e retornar com ele para o map() servir.
+            // esse esta em looping e será populado pelo map(), certo ? 
+            // A forma sempre será passar o objeto para uma função antes do map() e manipular nessa função e retornar para o map com ela já manipulada ?
+            // Se for isso, acho que você matando essa dúvida, ficará claro pra mim a forma de manipular os dados do array e retornar com ele para o map() injetar.
         })
     }
  
